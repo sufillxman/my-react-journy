@@ -1,0 +1,27 @@
+html,body{
+  width: 99%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.card{
+  width: 600px;
+  height: 130px;
+  background-color: rgb(175, 65, 65);
+  color: rgb(255, 252, 252);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0px 0px 400px;
+  
+}
+
+.navbar{
+  width: 100%;
+  height: 50px;
+  padding: 4px;
+  margin: 4px;
+  background-color: bisque;
+  color: black;
+  
+}
