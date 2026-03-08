@@ -1,4 +1,3 @@
-// Rightcard.jsx
 import React from "react";
 import RightCardContent from "./RightCardContent";
 
@@ -10,8 +9,8 @@ const Rightcard = (props) => {
         src={props.img}
         alt=""
       />
-      {/* Image ke baad ye chipka de */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent rounded-4xl"></div>
+     
+      <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent rounded-4xl"></div>
       <RightCardContent color={props.color} tag={props.tag} id={props.id} />
     </div>
   );
