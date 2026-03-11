@@ -19,7 +19,7 @@ const App = () => {
   }, [index]);
 
   return (
-    <div className="min-h-screen bg-zinc-950 p-6 md:p-10 font-sans flex flex-col justify-between">
+    <div>
       <Header index={index} userdata={userdata} />
 
       <Button index={index} setIndex={setIndex} setUserdata={setUserdata} />
