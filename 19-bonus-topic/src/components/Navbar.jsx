@@ -1,9 +1,15 @@
 import React from 'react'
 
 const Navbar = (props) => {
+   
     function changethem(){
-        props.setThem('dark')
-    }
+
+        if (props.them === 'light') {
+            props.setThem('dark')
+        } else {
+            props.setThem('light')
+        }}
+    
   return (
     <div>
         <button onClick={()=>{
